@@ -1,0 +1,67 @@
+html, body, p {
+	font-family: 'ABeeZee', sans-serif;
+}
+
+a {
+	color: #212529;
+}
+
+h5 {
+	background-color: #2a2a72;
+	background-image: linear-gradient(315deg, #009ffd 0%, #2a2a72 74%);
+}
+
+#entete {
+	background-color: #2a2a72;
+	background-image: linear-gradient(315deg, #2a2a72 0%, #009ffd 74%);
+}
+
+.titre {
+	font-size: 1.15rem;
+}
+
+#footer {
+	background-color: #2a2a72;
+	background-image: linear-gradient(315deg, #2a2a72 0%, #009ffd 74%);
+	height: 63px;
+}
+
+#social {
+	background-color: #edeff2;
+}
+
+.work {
+	color: #9b9b9b;
+}
+
+.wordCarousel {
+	overflow: hidden;
+	position: relative;
+	float: right;
+	height: 83px;
+	padding-top: 10px;
+	margin-top: -10px;
+}
+
+.wordCarousel li {
+	padding: 0 10px;
+	height: 45px;
+	margin-bottom: 45px;
+	display: block;
+}
+
+.flip2 { animation: flip2 6s cubic-bezier(0.23, 1, 0.32, 1.2) infinite; }
+
+@keyframes flip2 {
+	0% { margin-top: -180px; }
+	5% { margin-top: -90px;  }
+	50% { margin-top: -90px; }
+	55% { margin-top: 0px; }
+	99.99% { margin-top: 0px; }
+	100% { margin-top: -270px; }
+}
+
+
+
+
+
